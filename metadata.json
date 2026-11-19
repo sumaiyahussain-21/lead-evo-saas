@@ -1,0 +1,6 @@
+{
+  "name": "Lead Evo - AI Lead Generation & Sales Automation SaaS",
+  "description": "High-converting B2B lead generation and outreach portal featuring multi-channel WhatsApp campaigns, real-time analytics, instant pitch website redesigns, SEO audits, and meeting scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

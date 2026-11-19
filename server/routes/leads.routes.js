@@ -1,0 +1,12 @@
+import { Router } from "express";
+import { LeadsController } from "../controllers/leads.controller.js";
+const router = Router();
+router.get("/", LeadsController.getLeads);
+router.post("/", LeadsController.createLead);
+router.post("/batch-outreach", LeadsController.batchOutreach);
+router.post("/import-csv", LeadsController.importCsv);
+router.post("/batch-create", LeadsController.batchCreate);
+router.get("/:id", LeadsController.getLeadById);
+router.put("/:id", LeadsController.updateLead);
+router.delete("/:id", LeadsController.deleteLead);
+export default router;
